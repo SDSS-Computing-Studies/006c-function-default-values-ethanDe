@@ -17,6 +17,6 @@ assert title() == "=========\n= Title =\n========="
 
 def title(x = "="):
     x = str(x)
-    return f"{x*9}\n{x} Title {x}\n{x*9}"
+    return f"{x*9}S\n{x} Title {x}\n{x*9}"
 
 print(title("="))
